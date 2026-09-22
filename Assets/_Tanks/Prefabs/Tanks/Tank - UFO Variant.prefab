@@ -76,7 +76,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 978586303208163716, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_TurnSpeed
-      value: 225
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 978586303208163716, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_PlayerNumber
@@ -84,7 +84,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 978586303208163716, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_IsComputerControlled
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174735547460678594, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174735547460678594, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174735547460678594, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.39
       objectReference: {fileID: 0}
     - target: {fileID: 2447564890122931440, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_Size.x
@@ -124,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2714015955925969499, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_ExplosionForce
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2714015955925969499, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_ExplosionRadius
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5245739670854726819, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_Name
@@ -200,7 +212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6104152295519595088, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_StartingHealth
-      value: 225
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7706766538013490536, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_LocalPosition.x
@@ -245,28 +257,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7706766538013490536, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       insertIndex: 0
       addedObject: {fileID: 742602966349912647}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5245739670854726819, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7388767251617663730}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
---- !u!1 &6288699183951060985 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5245739670854726819, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
-  m_PrefabInstance: {fileID: 2272469424324307802}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7388767251617663730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6288699183951060985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc25b6c35f0ec7f43ad6f047f3623ad3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tanks.Complete.TankAI
 --- !u!4 &8465221056316069426 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7706766538013490536, guid: 6403fe5ec80d57449ba113752c134208, type: 3}

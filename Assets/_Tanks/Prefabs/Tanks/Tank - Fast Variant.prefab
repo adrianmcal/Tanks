@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 978586303208163716, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_TurnSpeed
-      value: 360
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 2174735547460678594, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2174735547460678594, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.41
+      value: 2.95
       objectReference: {fileID: 0}
     - target: {fileID: 2447564890122931440, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_Size.z
@@ -34,15 +34,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2714015955925969499, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_MaxDamage
-      value: 35
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 2714015955925969499, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_ShotCooldown
-      value: 0.2
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 2714015955925969499, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_MaxChargeTime
-      value: 0.35
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2714015955925969499, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_ExplosionForce
@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2714015955925969499, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_ExplosionRadius
-      value: 3
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 5245739670854726819, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_Name
@@ -58,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6104152295519595088, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_StartingHealth
-      value: 175
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 7706766538013490536, guid: 6403fe5ec80d57449ba113752c134208, type: 3}
       propertyPath: m_LocalPosition.x

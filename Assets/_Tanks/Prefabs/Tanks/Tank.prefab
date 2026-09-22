@@ -513,9 +513,9 @@ MonoBehaviour:
   m_MaxLaunchForce: 30
   m_MaxChargeTime: 1
   m_ShotCooldown: 1.75
-  m_MaxDamage: 130
-  m_ExplosionForce: 75
-  m_ExplosionRadius: 10
+  m_MaxDamage: 135
+  m_ExplosionForce: 100
+  m_ExplosionRadius: 15
   m_InputUser: {fileID: 0}
 --- !u!82 &1353745928272201203
 AudioSource:
@@ -626,7 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030896d0325fa3e4d8d7d4cfe2351cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tanks.Complete.TankHealth
-  m_StartingHealth: 250
+  m_StartingHealth: 350
   m_Slider: {fileID: 5337026594254441537}
   m_FillImage: {fileID: 3474610881513475405}
   m_FullHealthColor: {r: 0, g: 1, b: 0, a: 1}
